@@ -14,7 +14,7 @@ env:
   TESTING_STACK_NAME: sam-app
   TESTING_PIPELINE_EXECUTION_ROLE: arn:aws:iam::351500346358:role/aws-sam-cli-managed-dev-pipel-PipelineExecutionRole-xBuW1B2rog1V
   TESTING_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::351500346358:role/aws-sam-cli-managed-dev-p-CloudFormationExecutionRo-D89j7dAM3B8s
-  TESTING_ARTIFACTS_BUCKET: kube-31
+  TESTING_ARTIFACTS_BUCKET: aws-sam-cli-managed-default-samclisourcebucket-ftgikpxwig9s
   # If there are functions with "Image" PackageType in your template,
   # uncomment the line below and add "--image-repository ${TESTING_IMAGE_REPOSITORY}" to
   # testing "sam package" and "sam deploy" commands.
