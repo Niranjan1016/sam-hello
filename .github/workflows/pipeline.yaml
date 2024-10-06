@@ -23,7 +23,7 @@ env:
   PROD_STACK_NAME: sam-app
   PROD_PIPELINE_EXECUTION_ROLE: arn:aws:iam::351500346358:role/aws-sam-cli-managed-prod-pipe-PipelineExecutionRole-kGjnkjqmY720
   PROD_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::351500346358:role/aws-sam-cli-managed-prod--CloudFormationExecutionRo-Cwib21uB3wlc
-  PROD_ARTIFACTS_BUCKET: kube-31
+  PROD_ARTIFACTS_BUCKET: aws-sam-cli-managed-default-samclisourcebucket-ftgikpxwig9s
   # If there are functions with "Image" PackageType in your template,
   # uncomment the line below and add "--image-repository ${PROD_IMAGE_REPOSITORY}" to
   # prod "sam package" and "sam deploy" commands.
